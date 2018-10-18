@@ -8,29 +8,32 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITextFieldDelegate {
+class SecondViewController: UIViewController {
+    
 
-    
-    var lista : [String] = []
-   
-    @IBOutlet weak var user2: UITextField!
-    var from = String()
-    
-    
-    @IBAction func registro(_ sender: UIButton) {
-         lista.append(user2.text!)
-         print (lista)
-        
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        
-     // lista.append(user2.text!)
-        
-       
-//        let data = user2.text
-        
-    }
 
 }
+
+
+/*
+ var lista : [String] = []
+ 
+ 
+ @IBOutlet weak var us: UITextField!
+ 
+ 
+ override func viewDidLoad() {
+ super.viewDidLoad()
+ 
+ 
+ }
+ 
+ @IBAction func registrar(_ sender: UIButton) {
+ 
+ lista.append(us.text!)
+ 
+ print (lista)
+ }
+*/
+
+
